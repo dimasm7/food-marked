@@ -48,8 +48,6 @@ export const getInProgress = () => (dispatch) => {
     })
 }
 
-// BCA M Bangking 16258486879
-
 export const getPastOrders = () => (dispatch) => {
     getData('token').then((resToken) => {
         axios.all([
